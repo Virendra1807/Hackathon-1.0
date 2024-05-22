@@ -14,11 +14,12 @@ body{
 
 /* navigation-bar style */
 #nav-bar{
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(43, 42, 42);
     position: fixed;
     width: 100%;
     height: 50px;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 #nav-bar ul{
@@ -63,9 +64,188 @@ body{
     margin: 230px 250px;
 }
 
+/* #band div i{
+    font-size: 20px;
+    color: #ff00e1;
+    background-color: black;
+}
+
+#band {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: #ffffff;
+    border: 1px solid #ffffff40;
+    background: #ffffff40;
+    background-color: black;
+    box-shadow: 0 20px 20px 0 rgba(31,38,135,0.37);
+    backdrop-filter: blur(4px);
+    transform: rotate(-2deg);
+    transform: rotate3d(5, 2, 20, -4deg); 
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 900;
+    position: absolute;
+} */
+
 /* music section style */
 #music{
     width: 100%;
-    height: 700px;
-    background-color: rgb(247, 10, 255);
+    height: 1250px;
+    background-color: rgb(38, 38, 38);
+    padding: 20px 10px;
+    text-align: center;
 }
+
+#music h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#music p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 30px 180px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+#music button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 17, 17);
+    font-size: large;
+    padding: 20px 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Video section style (Movies) */
+
+#movies{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(246, 242, 242);
+    padding: 20px 10px;
+    text-align: center;
+}
+
+#movies h1{
+    color: rgb(58, 58, 58);
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#movies p{
+    color: rgb(88, 87, 87);
+    font-size: 20px;
+    margin: 30px 180px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+
+#movies button{
+    background-color: rgb(13, 47, 103);
+    padding: 23px 15px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#movies button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: large;
+}
+
+#movies img{
+    border-radius: 200px;
+}
+
+/* Information section style */
+#info-section{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-image: url('https://wallpaperswide.com/download/beautiful_night_sky-wallpaper-1680x1050.jpg');
+    background-size: cover;
+}
+
+#info-section > h1{
+    color: rgb(255, 255, 255);
+    padding-top: 250px;
+    padding-bottom: 20px;
+    font-size: 31px;
+}
+
+#info-section > p{
+    color: rgb(255, 255, 255);
+    margin: 30px 170px;
+    font-size: 23px;
+    line-height: 40px;
+}
+
+/* Gift section style  */
+#gift-card{
+    width: 80%;
+    height: 400px;
+    margin: 40px 250px;
+}
+
+#gift-card img{
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+
+#gift-card h1{
+    color: rgb(50, 49, 49);
+    margin-top: 90px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#gift-card p, hr{
+    color: rgb(68, 68, 68);
+    font-size: 18px;
+    margin-right: 90px;
+    line-height: 30px;
+}
+
+#gift-card > #already{
+    margin: 20px 0px;
+}
+
+/* Footer section style  */
+#footer{
+    color: rgb(183, 180, 180);
+    width: 100%;
+    height: 300px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer > div > h3{
+    color: rgb(255, 255, 255);
+}
+
+#footer > div > ul > li {
+    list-style-type: none;
+    line-height: 25px;
+}
+
+#main-footer h4{
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+
