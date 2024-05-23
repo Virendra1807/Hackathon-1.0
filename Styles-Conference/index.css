@@ -11,12 +11,58 @@ body{
     color: rgb(255, 255, 255); 
 }
 
+
 /* CSS variables */
 :root{
     --thin-font: Lato, sans-serif;
     --bg-color: #293f50;
     --grey-text: #648880;
     --defaut-paddding: 0px 340px; 
+}
+
+/* Home page register style */
+#registration{
+    width: 100%;
+    height: 350px;
+    padding: var(--defaut-paddding);
+    background-color: var(--bg-color);
+    text-align: center;
+} 
+
+#registration h1{
+    color: var(--grey-text);
+    padding-top: 40px;
+    color: var(--grey-text);
+    font-family: var(--thin-font);
+    font-size: 40px;
+}
+
+#registration p{
+    color: rgb(255, 255, 255);
+    font-family: var(--thin-font) !important;
+    font-size: 28px;
+    font-weight: 200;
+    padding: 10px;
+    line-height: 50px;
+}
+
+#registration #register-btn{
+    border: 1px solid rgb(255, 255, 255);
+    width: 210px;
+    height: 70px;
+    background-color: var(--bg-color);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}   
+
+#registration #register-btn:hover{
+    background-color: #fff;
+    color: var(--grey-text);
 }
 
 /* index style (Home page style) */
@@ -87,42 +133,52 @@ body{
 };
 
 /* ==================================================================================== */
+#registration > #para{
 
-/* Home page register style */
+}
 
-#registration{
-    /* border: 5px solid red; */
-    width: 100%;
-    height: 500px;
+
+#grid{
     padding: var(--defaut-paddding);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 
-    background-color: aqua;
-}   
+#grid div{
+    width: 33%;
+}
 
-#registration #title{
-    /* color: var(--grey-text); */
-    padding-top: 40px;
+#grid h4{
+    color: rgb(185, 185, 185);
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#grid h2{
     color: var(--grey-text);
     font-family: var(--thin-font);
-    font-size: 40px;
-    text-align: center;
-    
+    padding: 20px 0;
 }
 
-#registration #para{
-    font-size: larger;
-    color: black;
-    font-family: sans-serif;
-    padding: var(--defaut-paddding);
-    text-transform: uppercase;
+#grid p{
+    color: var(--grey-text);
+    font-family: var(--thin-font);
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    word-spacing: 3px;
+    padding-right:  20px;
 }
 
-
+#grid img{
+    border-radius: 10px;
+}
 
 /* ======================= Common footer Section =================== */
 /* style for footer  */
 #footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
