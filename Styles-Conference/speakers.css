@@ -134,9 +134,9 @@ body{
     height: 250px;
     padding: var(--defaut-paddding);
     background: #cbe2c1;
-    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -webkit-linear-gradient(to right, #3be66e, #cdb739);
+    background: -moz-linear-gradient(to right, #3be66e, #cdb739);
+    background: linear-gradient(to right, #87d79f, #d5c87c);
     text-align: center;
 }
 
