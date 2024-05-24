@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Styles Conference</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <!-- common header -->
+    <div id="header">
+        <div id="left">
+            <div id="decoration-line"></div>
+            <a href="/index.html" id="title">STYLES <br> CONFERENCE</a>
+        </div>
+
+        <div id="right">
+            <div id="date">August 24-26th -- Chicago, IL</div>
+            <ul id="navbar">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./speakers.html">SPEAKERS</a></li>
+                <li><a href="./schedule.html">SCHEDULE</a></li>
+                <li><a href="./venue.html">VENUE</a></li>
+                <li><a href="./register.html">REGISTER</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Speakers section  -->
+    <section id="speakers">
+        <h1 id="title">Register</h1>
+        <p id="speakers-para">Every year we aim to have an unbelievable time, and this year we'd love it for you to join
+            us. Conference passes only cost $99, one of the best values you'll find.</p>
+    </section>
+
+    <!-- information and registration form section  -->
+    <section id="registration-2">
+        <div style="width: 65%; margin-right: 50px;">
+            <h1 class="reg-title">Purchase a Conference Pass</h1>
+            <p id="pass-price">$99 PER PASS</p>
+            <p id="details">Purchase your Styles Conference pass using the form to the right. Multiple passes may be
+                purchased within the same order, so feel free to bring a friend or two along. Once your order is
+                finished we’ll follow up and provide a receipt for your purchase. See you soon!</p>
+            <h1 class="why-attend">Why Attend?</h1>
+            <ul>
+                <li>Over twenty world-class speakers</li>
+                <li>One full day of workshops and two full days of presentations</li>
+                <li>Hosted at The Chicago Theatre, a historical landmark</li>
+                <li>August in Chicago is simply amazing</li>
+            </ul>
+        </div>
+
+        <div>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" placeholder="Full name" required>
+                <br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="" placeholder="Email address" required>
+                <br>
+                <label for="passes">Number of Passes</label><br>
+                <select name="passes" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <br>
+                <label for="comments">Comments</label><br>
+                <textarea name="comment" id="" rows="3" cols="10" placeholder="Add comment..."></textarea>
+                <br>
+                <button onclick="alert('Thanks for purchasing pass')">PURCHASE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Common Footer -->
+    <footer id="footer" style="margin-top: 50px;">
+        <div id="left-footer">
+            <a href="/index.html"> ©Style Conference</a>
+        </div>
+
+        <div id="right-footer">
+            <ul id="navbar-footer">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./speakers.html">SPEAKERS</a></li>
+                <li><a href="./schedule.html">SCHEDULE</a></li>
+                <li><a href="./venue.html">VENUE</a></li>
+                <li><a href="./register.html">REGISTER</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
